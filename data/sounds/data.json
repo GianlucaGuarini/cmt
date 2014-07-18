@@ -1,0 +1,94 @@
+{
+	"topic": "sounds",
+	"messages": [{
+		"msg": "/play secret"
+	}, {
+		"msg": "/play trombone"
+	}, {
+		"msg": " /play crickets"
+	}, {
+		"msg": "/play rimshot"
+	}, {
+		"msg": " /play vuvuzela"
+	}, {
+		"msg": "/play tmyk"
+	}, {
+		"msg": " /play live"
+	}, {
+		"msg": "/play drama"
+	}, {
+		"msg": " /play yeah"
+	}, {
+		"msg": "/play greatjob"
+	}, {
+		"msg": " /play pushit"
+	}, {
+		"msg": "/play nyan"
+	}, {
+		"msg": " /play tada"
+	}, {
+		"msg": "/play ohmy"
+	}, {
+		"msg": " /play bueller"
+	}, {
+		"msg": "/play ohyeah"
+	}, {
+		"msg": " /play 56k"
+	}, {
+		"msg": "/play dangerzone"
+	}, {
+		"msg": " /play horn"
+	}, {
+		"msg": "/play horror"
+	}, {
+		"msg": " /play loggins"
+	}, {
+		"msg": "/play yodel"
+	}, {
+		"msg": " /play sax"
+	}, {
+		"msg": "/play noooo"
+	}, {
+		"msg": " /play heygirl"
+	}, {
+		"msg": "/play inconceivable"
+	}, {
+		"msg": " /play deeper"
+	}, {
+		"msg": "/play whoomp"
+	}, {
+		"msg": " /play clowntown"
+	}, {
+		"msg": "/play what"
+	}, {
+		"msg": " /play bezos"
+	}, {
+		"msg": "/play trololo"
+	}, {
+		"msg": " /play makeitso"
+	}, {
+		"msg": "/play sexyback"
+	}, {
+		"msg": " /play bell"
+	}, {
+		"msg": "/play danielsan"
+	}, {
+		"msg": " /play greyjoy"
+	}, {
+		"msg": "/play story"
+	}, {
+		"msg": " /play dadgummit"
+	}, {
+		"msg": "/play rollout"
+	}, {
+		"msg": " /play cottoneyejoe"
+	}, {
+		"msg": "/play rumble"
+	}, {
+		"msg": " /play guarantee"
+	}, {
+		"msg": "/play unix"
+	}, {
+		"msg": " /play letitgo"
+	}]
+}

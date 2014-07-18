@@ -1,0 +1,62 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var fs = require('fs'),
+	exec = require('child_process').exec,
+	helpers = require('../lib/helpers'),
+	baseDir = process.cwd(),
+	options = {
+		defaultJSONFileName: 'data.json',
+		dataFolder: 'data/',
+		preferredTopic: process.argv[2]
+	},
+	msg,
+	/**
+	 * Get the message topic
+	 * @return { String } [description]
+	 */
+	getTopic = function() {
+		var topics = helpers.findSubfolders(options.dataFolder);
+		// if there is a preferred topic
+		if (options.preferredTopic && ~topics.indexOf(options.preferredTopic)) {
+			return options.preferredTopic;
+		} else {
+			// otherwise use a random topic
+			return helpers.getRandomArrayValue(topics);
+		}
+	},
+	/**
+	 * Read the json message files and return the messages list
+	 * @param  { String } topic
+	 * @return { Array }
+	 */
+	getMessagesList = function(topic) {
+		return helpers.readJson(options.dataFolder + topic + '/' + options.defaultJSONFileName).messages;
+	},
+	/**
+	 * Get the message to commit
+	 * @return { String }
+	 */
+	getMessage = function() {
+		var topic = getTopic(),
+			messages = getMessagesList(topic),
+			messageFound = helpers.getRandomArrayValue(messages);
+
+		// get the message and append the source wheter it exists
+		return messageFound.msg + (messageFound.source ? ' - ' + messageFound.source : '');
+	};
+
+msg = getMessage();
+
+/**
+ * Run the git commit
+ */
+exec('git commit --amend -m"' + msg + '"', {
+	cwd: baseDir
+}, function(error, data) {
+	if (error) throw error;
+	helpers.print(data);
+	helpers.print('Your new commit message is:', 'warning');
+	helpers.print(msg, 'confirm');
+});

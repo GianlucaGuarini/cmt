@@ -1,0 +1,304 @@
+{
+	"topic": "movies",
+	"messages": [{
+		"msg": "Frankly, my dear, I don't give a damn.",
+		"source": "gone with the wind - 1939"
+	}, {
+		"msg": "I'm gonna make him an offer he can't refuse.",
+		"source": "the godfather - 1972"
+	}, {
+		"msg": "You don't understand!  I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, which is what I am.",
+		"source": "on the waterfront - 1954"
+	}, {
+		"msg": "Toto, I've a feeling we're not in Kansas anymore.",
+		"source": "the wizard of oz - 1939"
+	}, {
+		"msg": "Here's looking at you, kid.",
+		"source": "casablanca - 1942"
+	}, {
+		"msg": "Go ahead, make my day.",
+		"source": "sudden impact - 1983"
+	}, {
+		"msg": "All right, Mr. DeMille, I'm ready for my close-up.",
+		"source": "sunset blvd. - 1950"
+	}, {
+		"msg": "May the Force be with you.",
+		"source": "star wars - 1977"
+	}, {
+		"msg": "Fasten your seatbelts. It's going to be a bumpy night.",
+		"source": "all about eve - 1950"
+	}, {
+		"msg": " You talking to me?",
+		"source": "taxi driver - 1976"
+	}, {
+		"msg": " What we've got here is failure to communicate.",
+		"source": "cool hand luke - 1967"
+	}, {
+		"msg": " I love the smell of napalm in the morning.",
+		"source": "apocalypse now - 1979"
+	}, {
+		"msg": " Love means never having to say you're sorry.",
+		"source": "love story - 1970"
+	}, {
+		"msg": " The stuff that dreams are made of.",
+		"source": "the maltese falcon - 1941"
+	}, {
+		"msg": " E.T. phone home.",
+		"source": "e.t. the extra-terrestrial - 1982"
+	}, {
+		"msg": " They call me Mister Tibbs!",
+		"source": "in the heat of the night - 1967"
+	}, {
+		"msg": " Rosebud.",
+		"source": "citizen kane - 1941"
+	}, {
+		"msg": " Made it, Ma! Top of the world!",
+		"source": "white heat - 1949"
+	}, {
+		"msg": " I'm as mad as hell, and I'm not going to take this anymore!",
+		"source": "network - 1976"
+	}, {
+		"msg": "Louis, I think this is the beginning of a beautiful friendship.",
+		"source": "casablanca - 1942"
+	}, {
+		"msg": "A census taker once tried to test me. I ate his liver with some fava beans and a nice Chianti.",
+		"source": "the silence of the lambs - 1991"
+	}, {
+		"msg": " Bond. James Bond.",
+		"source": "dr. no - 1962"
+	}, {
+		"msg": " There's no place like home.",
+		"source": "the wizard of oz - 1939"
+	}, {
+		"msg": " I am big!  It's the pictures that got small.",
+		"source": "sunset blvd. - 1950"
+	}, {
+		"msg": " Show me the money!",
+		"source": "jerry maguire - 1996"
+	}, {
+		"msg": " Why don't you come up sometime and see me?",
+		"source": "she done him wrong - 1933"
+	}, {
+		"msg": " I'm walking here!  I'm walking here!",
+		"source": "midnight cowboy - 1969"
+	}, {
+		"msg": " Play it, Sam.  Play 'As Time Goes By.'",
+		"source": "casablanca - 1942"
+	}, {
+		"msg": " You can't handle the truth!",
+		"source": "a few good men - 1992"
+	}, {
+		"msg": " I want to be alone.",
+		"source": "grand hotel - 1932"
+	}, {
+		"msg": " After all, tomorrow is another day!",
+		"source": "gone with the wind - 1939"
+	}, {
+		"msg": " Round up the usual suspects.",
+		"source": "casablanca - 1942"
+	}, {
+		"msg": " I'll have what she's having.",
+		"source": "when harry met sally - 1989"
+	}, {
+		"msg": "You know how to whistle, don't you, Steve? You just put your lips together and blow.",
+		"source": "to have and have not - 1944"
+	}, {
+		"msg": " You're gonna need a bigger boat.",
+		"source": "jaws - 1975"
+	}, {
+		"msg": "Badges? We ain't got no badges! We don't need no badges! I don't have to show you any stinking badges!",
+		"source": "the treasure of the sierra madre - 1948"
+	}, {
+		"msg": " I'll be back.",
+		"source": "the terminator - 1984"
+	}, {
+		"msg": "Today, I consider myself the luckiest man on the face of the earth.",
+		"source": "the pride of the yankees - 1942"
+	}, {
+		"msg": " If you build it, he will come.",
+		"source": "field of dreams - 1989"
+	}, {
+		"msg": "My mama always said life was like a box of chocolates. You never know what you're gonna get.",
+		"source": "forrest gump - 1994"
+	}, {
+		"msg": " We rob banks.",
+		"source": "bonnie and clyde - 1967"
+	}, {
+		"msg": " Plastics.",
+		"source": "the graduate - 1967"
+	}, {
+		"msg": " We'll always have Paris.",
+		"source": "casablanca - 1942"
+	}, {
+		"msg": " I see dead people.",
+		"source": "the sixth sense - 1999"
+	}, {
+		"msg": " Stella!  Hey, Stella!",
+		"source": "a streetcar named desire - 1951"
+	}, {
+		"msg": " Oh, Jerry, don't let's ask for the moon. We have the stars.",
+		"source": "now, voyager - 1942"
+	}, {
+		"msg": " Shane.  Shane.  Come back!",
+		"source": "shane - 1953"
+	}, {
+		"msg": " Well, nobody's perfect.",
+		"source": "some like it hot - 1959"
+	}, {
+		"msg": " It's alive!  It's alive!",
+		"source": "frankenstein - 1931"
+	}, {
+		"msg": " Houston, we have a problem.",
+		"source": "apollo 13 - 1995"
+	}, {
+		"msg": "You've got to ask yourself one question: 'Do I feel lucky?' Well, do ya, punk?",
+		"source": "dirty harry - 1971"
+	}, {
+		"msg": " You had me at \"hello.\"",
+		"source": "jerry maguire - 1996"
+	}, {
+		"msg": "One morning I shot an elephant in my pajamas. How he got in my pajamas, I don't know.",
+		"source": "animal crackers - 1930"
+	}, {
+		"msg": " There's no crying in baseball!",
+		"source": "a league of their own - 1992"
+	}, {
+		"msg": " La-dee-da, la-dee-da.",
+		"source": "annie hall - 1977"
+	}, {
+		"msg": " A boy's best friend is his mother.",
+		"source": "psycho - 1960"
+	}, {
+		"msg": " Greed, for lack of a better word, is good.",
+		"source": "wall street - 1987"
+	}, {
+		"msg": " Keep your friends close, but your enemies closer.",
+		"source": "the godfather ii - 1974"
+	}, {
+		"msg": " As God is my witness, I'll never be hungry again.",
+		"source": "gone with the wind - 1939"
+	}, {
+		"msg": " Well, here's another nice mess you've gotten me into!",
+		"source": "sons of the desert - 1933"
+	}, {
+		"msg": " Say \"hello\" to my little friend!",
+		"source": "scarface - 1983"
+	}, {
+		"msg": " What a dump.",
+		"source": "beyond the forest - 1949"
+	}, {
+		"msg": " Mrs. Robinson, you're trying to seduce me.  Aren't you?",
+		"source": "the graduate - 1967"
+	}, {
+		"msg": " Gentlemen, you can't fight in here! This is the War Room!",
+		"source": "dr. strangelove - 1964"
+	}, {
+		"msg": " Elementary, my dear Watson.",
+		"source": "the adventures of sherlock holmes - 1939"
+	}, {
+		"msg": " Take your stinking paws off me, you damned dirty ape.",
+		"source": "planet of the apes - 1968"
+	}, {
+		"msg": "Of all the gin joints in all the towns in all the world, she walks into mine.",
+		"source": "casablanca - 1942"
+	}, {
+		"msg": " Here's Johnny!",
+		"source": "the shining - 1980"
+	}, {
+		"msg": " They're here!",
+		"source": "poltergeist - 1982"
+	}, {
+		"msg": " Is it safe?",
+		"source": "marathon man - 1976"
+	}, {
+		"msg": " Wait a minute, wait a minute.  You ain't heard nothin' yet!",
+		"source": "the jazz singer - 1927"
+	}, {
+		"msg": " No wire hangers, ever!",
+		"source": "mommie dearest - 1981"
+	}, {
+		"msg": " Mother of mercy, is this the end of Rico?",
+		"source": "little caesar - 1930"
+	}, {
+		"msg": " Forget it, Jake, it's Chinatown.",
+		"source": "chinatown - 1974"
+	}, {
+		"msg": " I have always depended on the kindness of strangers.",
+		"source": "a streetcar named desire - 1951"
+	}, {
+		"msg": " Hasta la vista, baby.",
+		"source": "terminator 2: judgment day - 1991"
+	}, {
+		"msg": " Soylent Green is people!",
+		"source": "soylent green - 1973"
+	}, {
+		"msg": " Open the pod bay doors, HAL.",
+		"source": "2001: a space odyssey - 1968"
+	}, {
+		"msg": "Striker: Surely you can't be serious. Rumack: I am serious...and don't call me Shirley.",
+		"source": "airplane! - 1980"
+	}, {
+		"msg": " Yo, Adrian!",
+		"source": "rocky - 1976"
+	}, {
+		"msg": " Hello, gorgeous.",
+		"source": "funny girl - 1968"
+	}, {
+		"msg": " Toga!  Toga!",
+		"source": "lampoon's animal house - 1978"
+	}, {
+		"msg": "Listen to them.  Children of the night.  What music they make.",
+		"source": "dracula - 1931"
+	}, {
+		"msg": "Oh, no, it wasn't the airplanes. It was Beauty killed the Beast.",
+		"source": "king kong - 1933"
+	}, {
+		"msg": " My precious.",
+		"source": "the lord of the rings: two towers - 2002"
+	}, {
+		"msg": " Attica! Attica!",
+		"source": "dog day afternoon - 1975"
+	}, {
+		"msg": "Sawyer, you're going out a youngster, but you've got to come back a star!",
+		"source": "42nd street - 1933"
+	}, {
+		"msg": "Listen to me, mister. You're my knight in shining armor.  Don't you forget it.  You're going to get back on that horse, and I'm going to be right behind you, holding on tight, and away we're gonna go, go, go!",
+		"source": "on golden pond - 1981"
+	}, {
+		"msg": "Tell 'em to go out there with all they got and win just one for the Gipper.",
+		"source": "knute rockne all american - 1940"
+	}, {
+		"msg": " A martini.  Shaken, not stirred.",
+		"source": "goldfinger - 1964"
+	}, {
+		"msg": " Who's on first.",
+		"source": "the naughty nineties - 1945"
+	}, {
+		"msg": "Cinderella story.  Outta nowhere.  A former greenskeeper, now, about to  become the Masters champion.  It looks like a mirac...It's in the hole!  It's in the hole!  It's in the hole!",
+		"source": "caddyshack - 1980"
+	}, {
+		"msg": "Life is a banquet, and most poor suckers are starving to death!",
+		"source": "auntie mame - 1958"
+	}, {
+		"msg": " I feel the need - the need for speed!",
+		"source": "top gun - 1986"
+	}, {
+		"msg": "Carpe diem.  Seize the day, boys.  Make your lives extraordinary.",
+		"source": "dead poets society - 1989"
+	}, {
+		"msg": " Snap out of it!",
+		"source": "moonstruck - 1987"
+	}, {
+		"msg": "My mother thanks you. My father thanks you. My sister thanks you. And I thank you.",
+		"source": "yankee doodle dandy - 1942"
+	}, {
+		"msg": " Nobody puts Baby in a corner.",
+		"source": "dirty dancing - 1987"
+	}, {
+		"msg": " I'll get you, my pretty, and your little dog, too!",
+		"source": "wizard of oz, the - 1939"
+	}, {
+		"msg": " I'm the king of the world!",
+		"source": "titanic - 1997"
+	}]
+}
