@@ -1,0 +1,28 @@
+{
+  "name": "cmt",
+  "version": "0.0.0",
+  "description": "Get rid of all the boring git commit messages like 'small fix'. cmt is an automatic git commit generator",
+  "main": "bin/cmt",
+  "scripts": {
+    "test": "./bin/cmt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GianlucaGuarini/cmt.git"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "messages",
+    "generator",
+    "random",
+    "fun",
+    "lol"
+  ],
+  "author": "Gianluca Guarini <gianluca.guarini@gmail.com> (http://gianlucaguarini.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GianlucaGuarini/cmt/issues"
+  },
+  "homepage": "https://github.com/GianlucaGuarini/cmt"
+}
