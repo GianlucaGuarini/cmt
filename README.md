@@ -3,7 +3,7 @@ cmt
 
 Get rid of all the boring git commit messages like 'small fix'. cmt is an automatic git commit generator
 
-![demo](demo.gif)
+![demo](https://raw.githubusercontent.com/GianlucaGuarini/cmt/master/demo.gif)
 
 ### Installation
 
@@ -13,8 +13,8 @@ $ npm install cmt -g
 
 ### Usage
 
-Type ```shell $ cmt ``` in your terminal form a project using git to get a custom commit message
-You can also use ```shell $ cmt [topic]``` to specify the topic of your messages
+Type ```cmt ``` in your terminal form a project using git to get a custom commit message
+You can also use ```cmt [topic]``` to specify the topic of your messages
 
 
 Available topics
