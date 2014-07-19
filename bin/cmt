@@ -11,6 +11,7 @@ var fs = require('fs'),
 		dataFolder: __dirname + '/../data/',
 		preferredTopic: process.argv[2]
 	},
+	topic,
 	msg,
 	/**
 	 * Get the message topic
@@ -40,14 +41,15 @@ var fs = require('fs'),
 	 * @return { String }
 	 */
 	getMessage = function() {
-		var topic = getTopic(),
-			messages = getMessagesList(topic),
+
+		var messages = getMessagesList(topic),
 			messageFound = helpers.getRandomArrayValue(messages);
 
 		// get the message and append the source wheter it exists
 		return messageFound.msg + (messageFound.source ? ' - ' + messageFound.source : '');
 	};
 
+topic = getTopic();
 msg = getMessage();
 
 /**
@@ -58,6 +60,7 @@ exec('git commit --amend -m"' + msg + '"', {
 }, function(error, data) {
 	if (error) throw error;
 	helpers.print(data);
+	helpers.print('Topic "' + topic + '"', 'cool');
 	helpers.print('Your new commit message is:', 'warning');
 	helpers.print(msg, 'confirm');
 });
