@@ -3,7 +3,7 @@ cmt
 
 Get rid of all the boring git commit messages like 'small fix'. cmt is an automatic git commit generator
 
-![demo](https://raw.githubusercontent.com/GianlucaGuarini/cmt/master/demo.gif?1)
+![demo](https://raw.githubusercontent.com/GianlucaGuarini/cmt/master/demo.gif?2)
 
 ### Installation
 
