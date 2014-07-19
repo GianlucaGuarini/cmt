@@ -55,6 +55,7 @@ msg = getMessage();
 /**
  * Run the git commit
  */
+
 exec('git commit --amend -m"' + msg + '"', {
 	cwd: baseDir
 }, function(error, data) {
