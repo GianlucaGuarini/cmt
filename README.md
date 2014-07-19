@@ -16,6 +16,7 @@ $ npm install cmt -g
 Type ```shell $ cmt ``` in your terminal form a project using git to get a custom commit message
 You can also use ```shell $ cmt [topic]``` to specify the topic of your messages
 
+
 Available topics
 
 - emojis
@@ -27,3 +28,4 @@ Available topics
 ### Contribute
 
 If you want to contribute please enhance the list of topics creating new ones and adding new entries on the existing ones
+

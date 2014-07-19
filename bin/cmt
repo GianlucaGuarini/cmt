@@ -8,7 +8,7 @@ var fs = require('fs'),
 	baseDir = process.cwd(),
 	options = {
 		defaultJSONFileName: 'data.json',
-		dataFolder: 'data/',
+		dataFolder: __dirname + '/../data/',
 		preferredTopic: process.argv[2]
 	},
 	msg,
@@ -17,6 +17,7 @@ var fs = require('fs'),
 	 * @return { String } [description]
 	 */
 	getTopic = function() {
+
 		var topics = helpers.findSubfolders(options.dataFolder);
 		// if there is a preferred topic
 		if (options.preferredTopic && ~topics.indexOf(options.preferredTopic)) {
