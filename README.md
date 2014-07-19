@@ -27,5 +27,5 @@ Available topics
 
 ### Contribute
 
-If you want to contribute please enhance the list of topics creating new ones and adding new entries on the existing ones
+If you want to contribute please enhance the list of the topics creating new ones and adding new entries on the existing ones
 
