@@ -55,6 +55,8 @@ msg = getMessage();
 /**
  * Run the git commit
  */
+// check if there is already a git commit message set
+
 exec('git log origin..', {
 	cwd: baseDir
 }, function(error, logData) {
