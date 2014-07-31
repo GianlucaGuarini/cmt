@@ -55,13 +55,17 @@ msg = getMessage();
 /**
  * Run the git commit
  */
-
-exec('git commit --amend -m"' + msg + '"', {
+exec('git log origin..', {
 	cwd: baseDir
-}, function(error, data) {
+}, function(error, logData) {
 	if (error) throw error;
-	helpers.print(data);
-	helpers.print('Topic "' + topic + '"', 'cool');
-	helpers.print('Your new commit message is:', 'warning');
-	helpers.print(msg, 'confirm');
+	exec('git commit ' + (logData.length ? '--amend' : '') + ' -m"' + msg + '"', {
+		cwd: baseDir
+	}, function(error, data) {
+		if (error) throw error;
+		helpers.print(data);
+		helpers.print('Topic "' + topic + '"', 'cool');
+		helpers.print('Your new commit message is:', 'warning');
+		helpers.print(msg, 'confirm');
+	});
 });

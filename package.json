@@ -1,6 +1,6 @@
 {
   "name": "cmt",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Get rid of all the boring git commit messages like 'small fix'. cmt is an automatic git commit generator",
   "main": "bin/cmt",
   "scripts": {
