@@ -56,18 +56,22 @@ msg = getMessage();
  * Run the git commit
  */
 // check if there is already a git commit message set
-
 exec('git status -s', {
 	cwd: baseDir
 }, function(error, logData) {
-	if (error) throw error;
-	exec('git commit ' + (logData.length ? '--amend' : '') + ' -m"' + msg + '"', {
+	exec('git commit ' + (logData.length ? '' : '--amend') + ' -m"' + msg + '"', {
 		cwd: baseDir
 	}, function(error, data) {
-		if (error) throw error;
-		helpers.print(data);
-		helpers.print('Topic "' + topic + '"', 'cool');
-		helpers.print('Your new commit message is:', 'warning');
-		helpers.print(msg, 'confirm');
+		if (error) {
+			helpers.print('It was somehow not possible to create a new commit message ', 'error');
+			helpers.print(data);
+			//throw error;
+		} else {
+			helpers.print(data);
+			helpers.print('Topic "' + topic + '"', 'cool');
+			helpers.print('Your new commit message is:', 'warning');
+			helpers.print(msg, 'confirm');
+		}
+
 	});
 });
