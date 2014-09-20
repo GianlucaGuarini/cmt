@@ -57,7 +57,7 @@ msg = getMessage();
  */
 // check if there is already a git commit message set
 
-exec('git log origin..', {
+exec('git log HEAD..', {
 	cwd: baseDir
 }, function(error, logData) {
 	if (error) throw error;
