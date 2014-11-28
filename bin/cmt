@@ -56,13 +56,14 @@ msg = getMessage();
  * Run the git commit
  */
 // check if there is already a git commit message set
-exec('git log --branches --not --remotes', {
+exec('git log --branches --not --remotes --simplify-by-decoration --decorate --oneline', {
 	cwd: baseDir
 }, function(error, logData) {
 	exec('git commit ' + (logData.length ? '--amend' : '') + ' -m"' + msg + '"', {
 		cwd: baseDir
 	}, function(error, data) {
 		if (error) {
+			helpers.print(error, 'error');
 			helpers.print('It was somehow not possible to create a new commit message ', 'error');
 			helpers.print(data);
 			//throw error;
