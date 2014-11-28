@@ -56,10 +56,10 @@ msg = getMessage();
  * Run the git commit
  */
 // check if there is already a git commit message set
-exec('git status -s', {
+exec('git log --branches --not --remotes', {
 	cwd: baseDir
 }, function(error, logData) {
-	exec('git commit ' + (logData.length ? '' : '--amend') + ' -m"' + msg + '"', {
+	exec('git commit ' + (logData.length ? '--amend' : '') + ' -m"' + msg + '"', {
 		cwd: baseDir
 	}, function(error, data) {
 		if (error) {
